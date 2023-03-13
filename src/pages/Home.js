@@ -10,7 +10,6 @@ const Home = () => {
 	const [searchResults, setSearchResults] = useState([]);
 	const [data, setData] = useState([]);
 
-	// load in data from the dummy data
 	useEffect(() => {
 		setData([...acronyms]);
 	}, []);

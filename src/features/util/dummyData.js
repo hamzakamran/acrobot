@@ -38,7 +38,7 @@ export const acronyms = [
 		],
 	},
 	{
-		acronym: "wncp",
+		acronym: "wcnp",
 		definitions: [
 			{
 				definition: "Walmart Cloud Native Platform",
