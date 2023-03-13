@@ -1,5 +1,13 @@
+import Header from "./features/ui/header/Header";
+import Home from "./pages/Home";
+
 const App = () => {
-	return <h1>Hello World</h1>;
+	return (
+		<>
+			<Header />
+			<Home />
+		</>
+	);
 };
 
 export default App;
